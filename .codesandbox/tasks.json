@@ -11,43 +11,35 @@
   "tasks": {
     "test": {
       "name": "test",
-      "command": "yarn test",
-      "runAtStart": false
+      "command": "yarn test"
     },
     "pretest": {
       "name": "pretest",
-      "command": "yarn pretest",
-      "runAtStart": false
+      "command": "yarn pretest"
     },
     "vscode:prepublish": {
       "name": "vscode:prepublish",
-      "command": "yarn vscode:prepublish",
-      "runAtStart": false
+      "command": "yarn vscode:prepublish"
     },
     "compile-all": {
       "name": "compile-all",
-      "command": "yarn compile-all",
-      "runAtStart": false
+      "command": "yarn compile-all"
     },
     "watch-all": {
       "name": "watch-all",
-      "command": "yarn watch-all",
-      "runAtStart": false
+      "command": "yarn watch-all"
     },
     "package-all": {
       "name": "package-all",
-      "command": "yarn package-all",
-      "runAtStart": false
+      "command": "yarn package-all"
     },
     "lint": {
       "name": "lint",
-      "command": "yarn lint",
-      "runAtStart": false
+      "command": "yarn lint"
     },
     "run-in-browser": {
       "name": "run-in-browser",
       "command": "yarn run-in-browser",
-      "runAtStart": false,
       "preview": {
         "port": 3000
       }
